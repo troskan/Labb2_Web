@@ -1,0 +1,29 @@
+body {
+  background: rgb(230, 255, 241);
+  background: radial-gradient(
+    circle,
+    rgba(230, 255, 241, 1) 0%,
+    rgba(197, 240, 255, 1) 100%
+  );
+}
+.first-section {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.568);
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  margin: 50px auto 0; /* Adds 50px top margin, centers the section horizontally, and sets the bottom margin to 0 */
+  max-width: 800px; /* Limits the width of the section */
+  padding: 20px; /* Adds some padding inside the section */
+}
+
+#html-logo {
+  height: 2.1%;
+  width: 2.1%;
+}
+#css-logo {
+  height: 2%;
+  width: 2%;
+}
+#js-logo {
+  height: 2.2%;
+  width: 2.2%;
+}
