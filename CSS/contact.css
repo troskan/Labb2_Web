@@ -29,12 +29,7 @@ body {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-.card-1:hover .card-inner {
-  transform: rotateY(180deg);
-}
-.card-front-1,
-.card-back-1 {
-}
+
 .parent-container .card-2 {
   background-color: rgb(240, 166, 255);
 
