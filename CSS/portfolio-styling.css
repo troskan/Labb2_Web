@@ -1,47 +1,77 @@
 body {
-  background: rgb(230, 255, 241);
-  background: radial-gradient(
-    circle,
-    rgba(230, 255, 241, 1) 0%,
-    rgba(197, 240, 255, 1) 100%
-  );
+  background-color: white;
+}
+
+p {
+  font-size: 18px;
+}
+.parent-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 17rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.box-img {
+  height: 15rem;
 }
 .box {
-  display: flex;
-  justify-content: center;
-  background-color: rgba(241, 164, 241, 0.678);
-  height: auto;
-  width: 35rem;
-  border-radius: 1rem;
+  display: flexbox;
+  flex-wrap: wrap;
+  width: 12rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  border: 1px solid black;
 }
-.project-desc {
-  display: block;
+#box-1 {
+  background-color: rgb(255, 187, 245);
 }
-
-.box .project-desc .show-more {
-  display: none;
+#box-2 {
+  background-color: rgb(198, 255, 168);
 }
-
-.check:checked + .show-more {
-  display: block;
+#box-3 {
+  background-color: rgb(172, 255, 255);
 }
-.check {
-  display: none;
+.box-header {
+  height: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
-.btn:hover {
-  cursor: pointer;
-}
-
-.löda {
-  background-color: aqua;
-}
-
-.more-info {
-  font-size: x-large;
-}
-.checkbox:checked + .more-info {
-  font-size: small;
+.box-desc {
+  width: 12rem;
+  text-align: center;
 }
 .checkbox {
   display: none;
+}
+
+a {
+  text-decoration: none;
+}
+.parent-container .box .more-info a {
+  color: black;
+}
+.parent-container .box .more-info a:hover {
+  text-decoration: underline 0.1rem solid rgb(207, 99, 99);
+}
+.more-info {
+  display: none;
+  margin-left: 1rem;
+  list-style: none;
+}
+.info-btn {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: blue;
+  text-align: center;
+}
+.info-btn:hover {
+  text-decoration: underline 0.1rem solid rgb(207, 99, 99);
+  color: rgb(0, 0, 0);
+}
+.checkbox:checked + .more-info {
+  display: block;
 }

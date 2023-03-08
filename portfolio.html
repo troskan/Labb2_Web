@@ -4,7 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" type="text/css" href="CSS/navbar-styling.css" />
     <link rel="stylesheet" type="text/css" href="CSS/portfolio-styling.css" />
   </head>
@@ -20,17 +34,81 @@
         </ul>
       </nav>
     </header>
-    <section class="intro">
-      <h1>Portfolio</h1>
-      <p>Here is some of my previous projects and ongoing.</p>
-    </section>
-    <div class="box">
-      <section class="project-desc">
-        <h2>My project</h2>
-        <p>This is my project, welcome jada jada jopp</p>
-        <label for="toggle-btn" class="btn">Read more</label>
-        <input type="checkbox" class="check" id="toggle-btn" />
-        <section class="show-more"><p>Here is some extra text yo</p></section>
+
+    <div class="parent-container">
+      <section class="box" id="box-1">
+        <h3 class="box-header">Bank App Simulation</h3>
+        <p class="box-desc">A console application that simulates a bank.</p>
+        <label class="info-btn" for="1">More Info</label>
+        <input class="checkbox" type="checkbox" id="1" />
+        <ul class="more-info">
+          <li>
+            <a
+              href="https://github.com/troskan/troskan.github.io"
+              target="_blank"
+              >Github Repo</a
+            >
+          </li>
+          <li>
+            <a href="https://troskan.github.io/webquiz.html" target="_blank"
+              >Play Game</a
+            >
+          </li>
+          <li>
+            <a href="Images/quizgame-foreal.png" target="_blank">Screenshots</a>
+          </li>
+        </ul>
+      </section>
+      <section class="box" id="box-2">
+        <h3 class="box-header">Quiz Game</h3>
+        <p class="box-desc">
+          Receive a variety of different questions and try to pick the correct
+          answer.
+        </p>
+        <label class="info-btn" for="2">More Info</label>
+        <input class="checkbox" type="checkbox" id="2" />
+        <ul class="more-info">
+          <li>
+            <a
+              href="https://github.com/troskan/troskan.github.io"
+              target="_blank"
+              >Github Repo</a
+            >
+          </li>
+          <li>
+            <a href="https://troskan.github.io/webquiz.html" target="_blank"
+              >Play Game</a
+            >
+          </li>
+          <li>
+            <a href="Images/quizgame-foreal.png" target="_blank">Screenshots</a>
+          </li>
+        </ul>
+      </section>
+      <section class="box" id="box-3">
+        <h3 class="box-header">Password Generator</h3>
+        <p class="box-desc">
+          Console Application which generate and store passwords.
+        </p>
+        <label class="info-btn" for="3">More Info</label>
+        <input class="checkbox" type="checkbox" id="3" />
+        <ul class="more-info">
+          <li>
+            <a
+              href="https://github.com/troskan/troskan.github.io"
+              target="_blank"
+              >Github Repo</a
+            >
+          </li>
+          <li>
+            <a href="https://troskan.github.io/webquiz.html" target="_blank"
+              >Play Game</a
+            >
+          </li>
+          <li>
+            <a href="Images/quizgame-foreal.png" target="_blank">Screenshots</a>
+          </li>
+        </ul>
       </section>
     </div>
   </body>
