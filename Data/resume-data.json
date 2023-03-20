@@ -1,0 +1,58 @@
+[
+  {
+    "contact": {
+      "name": "Alvin Strandberg",
+      "github": "Github",
+      "linkedin": "Min LinkedIn",
+      "phone": "0761894125",
+      "location": "Lastad, Falkenberg",
+      "email": "alvin.strandberg@proton.me"
+    },
+    "work": [
+      {
+        "company": "Din Byggare I Falkenberg",
+        "role": "Snickare 2020 -",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ratione! Molestiae beatae harum laborum dolorem veniam, voluptatum at culpa ex inventore autem non perspiciatis nam cum nisi magni accusamus nostrum."
+      },
+      {
+        "company": "ERAN Byggservice",
+        "role": "Snickare 2020",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure minima unde nobis consectetur quo, tenetur vero numquam consequatur velit saepe a voluptatum laboriosam enim dicta molestias, eveniet nam, neque debitis!"
+      },
+      {
+        "company": "Lars Eklöws Byggservice",
+        "role": "Snickare 2019",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis impedit exercitationem dignissimos incidunt eos, aliquid in vitae placeat facere veritatis magnam debitis reiciendis itaque error optio quos non. Vitae, veniam!"
+      },
+      {
+        "company": "PEAB Byggservice",
+        "role": "Snickare 2015-2019",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in sint, perferendis dolorum quod eveniet fuga excepturi, expedita commodi aperiam assumenda? Voluptates magnam tempora distinctio, quos odit ea sapiente debitis!"
+      },
+      {
+        "company": "Börjessons Måleri Veddige",
+        "role": "Målare 2014",
+        "description": "2014 sommarjobbade jag som målare när jag hade sommarlov från gymmnasiet."
+      }
+    ],
+    "education": [
+      {
+        "name": "Systemutvecklare .NET",
+        "institution": "Qlok AB @Campus Varberg",
+        "period": "2022-",
+        "more_info": "https://campus.varberg.se/yrkeshogskola/systemutvecklare-net"
+      },
+      {
+        "name": "Bygg- och anläggningsprogrammet",
+        "institution": "Peder Skrivares Skola",
+        "period": "2012-2015"
+      }
+    ],
+    "skills": [
+      "Prestigelös",
+      "Glad och positiv",
+      "Vågar fråga för att förstå",
+      "Utåtriktad och skojfrisk"
+    ]
+  }
+]

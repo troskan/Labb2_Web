@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Space+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./JS/importResume.js" defer></script>
   </head>
   <body>
     <header>
@@ -25,17 +26,17 @@
       </nav>
     </header>
       <div class="container-parent">
-        <div class="left-container-parent">
+        <div class="left-container-parent" id="left-container">
           <section class="left-side-container-1">
-            <h1>Alvin Strandberg</h1>
+            <h1 id="name">Alvin Strandberg</h1>
             <p>
-              <i class="fa-solid fa-envelope"></i> alvin.strandberg@hotmail.com <br><i class="fa-brands fa-github"></i> <a target="_blank" href="https://github.com/troskan/">Github</a> <br> <i class="fa-brands fa-linkedin"></i> <a target="_blank" href="https://www.linkedin.com/in/alvin-strandberg-612954253/">Min LinkedIn</a><br><i class="fa-solid fa-phone"></i> 0761894125 <br><i class="fa-solid fa-location-dot"></i> Lastad, Falkenberg
+              <i class="fa-solid fa-envelope"></i> <span id="email"></span> <br><i class="fa-brands fa-github"></i> <a   id="github" target="_blank" href="https://github.com/troskan/"></a> <br> <i class="fa-brands fa-linkedin"></i> <a id="linkedin" target="_blank" href="https://www.linkedin.com/in/alvin-strandberg-612954253/"></a><br><i class="fa-solid fa-phone"></i> <span id="phone"></span> <br><i class="fa-solid fa-location-dot"></i> <span id="location"></span>
             </p>
           </section>
           <header class="experience-header">
             <h3 class="work-header">Tidigare Erfarenhet</h3>
           </header>
-          <section class="left-side-container-2">
+          <!-- <section class="left-side-container-2">
             <h3>Din Byggare I falkenberg</h3>
             <p><i style="color:grey;"class="fa-solid fa-wrench"></i> Snickare 2020 - </p>
             <p>
@@ -84,7 +85,7 @@
               2014 sommarjobbade jag som målare när jag hade sommarlov från
               gymmnasiet.
             </p>
-          </section>
+          </section> -->
         </div>
         <div class="right-container-parent">
           <section class="right-side-container-1">
